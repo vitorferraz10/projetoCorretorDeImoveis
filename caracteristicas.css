@@ -1,0 +1,57 @@
+.caracteristicas {
+    background-color: RGBA( 169, 169, 169, 0.1 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+    
+}
+.caracteristicas h2{
+    font-size: 20px;
+}
+.caracteristicas h3 {
+    font-size: 1.5em;
+    margin-bottom: 35px;
+    color: #000;
+   
+}
+
+.caracteristicas p {
+    max-width: 800px;
+    margin-bottom: 35px;
+    color: rgb(56, 56, 56);
+    font-size: 1.2em;
+    
+   
+    
+}
+
+.caracteristicas hr {
+    width: 200px;
+    height: 2px;
+    background-color: rgb(68, 68, 68);
+    margin-bottom: 70px;
+    border: none;
+}
+
+.caracteristicas .grid {
+    width: 100%;
+    display: flex;
+    
+}
+
+.caracteristicas .grid li {
+    padding: 0 30px;
+    text-align: center;
+  
+}
+
+
+
+.caracteristicas .grid li p {
+    color: rgb(36, 35, 35);
+    text-align: justify;
+    padding-inline-end: 25px;
+
+}
+

@@ -1,0 +1,8 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}

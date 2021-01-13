@@ -1,0 +1,70 @@
+.aimbere {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 10px;
+  
+    background-color: rgba(236, 233, 233, 0.1);
+}
+
+.aimbere h3 {
+    font-size: 2rem;
+    margin-bottom: 35px;
+    color: #191c03;
+    text-align: center;
+}
+
+.aimbere p {
+    max-width: 800px;
+    margin-bottom: 35px;
+    color: #191c03;
+    font-size: 1.2em;
+    text-align: start;
+    
+}
+
+
+.aimbere hr {
+    width: 200px;
+    height: 2px;
+    background-color: #191c03;
+    margin-bottom: 70px;
+    border: none;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.aimbere .grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aimbere .grid li {
+    height: 400px;
+    padding: 20px;
+    border-radius: 4px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+ 
+	
+}
+
+.aimbere .grid li:hover {
+ opacity: 0.6;
+ background: -moz-linear-gradient(#8d8c8c);
+ transition: 1s;
+ transform: scale(1);
+} 
+
+.aimbere .grid li.small {
+    flex-basis: 30%;
+}
+
+.aimbere .grid li.large {
+    flex-basis: 50%;
+}

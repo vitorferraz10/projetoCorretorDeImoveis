@@ -1,0 +1,27 @@
+.hero {
+    background-image: url(../imagens/aimbere1-perdizes.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  
+   
+}
+.hero h1 {
+    
+    margin-bottom: 1rem;
+ 
+}
+.hero p {
+    font-size: 1.5rem;
+    
+}
+.hero h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+

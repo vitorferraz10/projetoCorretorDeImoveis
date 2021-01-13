@@ -1,0 +1,45 @@
+/*hero*/
+
+@media (max-width: 700px) {
+    .hero {
+        padding: auto;
+        font-size: 1em;
+        text-align: start;
+    }
+    .hero h1 {
+        margin: 10%;
+    }
+    .hero h3,
+    p {
+        margin: 5%;
+    }
+}
+
+
+/*aimbere*/
+
+@media (max-width: 700px) {
+    .aimbere .grid li.small,
+    .aimbere .grid li.large {
+        flex-basis: 100%;
+    }
+}
+
+
+/*CARACTERISTICAS*/
+
+@media (max-width: 850px) {
+    .caracteristicas .grid {
+        flex-direction: column;
+        font-size: 1em;
+        text-align: start;
+    }
+}
+
+@media (max-width: 680px) {
+    .footer1 {
+        width: 100vw;
+        height: 4vh;
+        font-size: 0.7em;
+    }
+}
